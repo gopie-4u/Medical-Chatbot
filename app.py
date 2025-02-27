@@ -23,7 +23,7 @@ os.environ['GROQ_API_KEY'] = GROQ_API_KEY
 
 embeddings = get_gemini_embeddings()
 
-index_name = 'gkmedicalbot'
+index_name = 'gkbot'
 
 docsearch = PineconeVectorStore.from_existing_index(index_name=index_name,
                                                      embedding=embeddings)

@@ -18,7 +18,7 @@ text_chunks = text_split(extracted_data)
 embeddings = get_gemini_embeddings()
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
-index_name = 'gkmedicalbot'
+index_name = 'gkbot'
 
 index_list = pc.list_indexes().names()
 if index_name not in index_list:
