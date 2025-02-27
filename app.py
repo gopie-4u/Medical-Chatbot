@@ -1,0 +1,1 @@
+print("All power is within you")
